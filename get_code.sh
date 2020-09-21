@@ -3,4 +3,4 @@ function gdrive_download () {
   wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$CONFIRM&id=$1" -O $2
   rm -rf /tmp/cookies.txt
 }
-gdrive_download 10r0TynTN0aBk-tWF9Jfv56gMz6wIlX2k data.zip
+gdrive_download 1elqN9KbDUE9RBMCPDzee1C6E-bmR4kr3 code.zip
